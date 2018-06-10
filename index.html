@@ -8,36 +8,47 @@
 	<!--                                                   Header                                  -->
 		<header class="main-header">
 		
-			<nav class="main-navigation">
+			<div class="top-header">
 			
-				<a class="main-site-name">Техномарт</a>
+				<a class="logo">Техномарт</a>
 				
-				<ul class="header-navigation">
-					<li><a href="index.html">Поиск</a></li>
-					<li><a href="index.html">Закладки</a></li>
-					<li><a href="index.html">Корзина</a></li>
-					<li><a href="index.html">Оформить заказ</a></li>
-				</ul>
-			</nav>
+				<form class="search-form" >
+				
+					<label for="search-input">Поиск</label>
+					<input class="search-input" id="search-input">
+					<button class="search-button">Search</button>
+				</form>
+				
+				
+				<a class="whishlist" href="#">Закладки: <span class="whishlist-count">0</span></a>
+				
+				<a class="cart" href="#">Корзина: <span class="cart-count">0</span></a>
+				
+				<a class="create-order" href="#">Оформить заказ</a> 
+					
+			</div>
 			
-			<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 			
-			<section class="contacts-header">
-				<h2 class="visually-hidden">Контактная информация</h2>
-				<p>
-					+7 (812) 555 05 55<br>
+				
+			
+			<p class="site-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+			
+			<div class="contacts-header">
+								
+				<a class="contact-header-phone" href="tel:+7 812555 05 55">+7 (812) 555 05 55</a><br>
+				<p class="contact-header-address">
 					г. Санкт-Петербург, Б. Конюшенная, д. 19/18
 				</p>
-			</section>
+			</div>
+			
+			<div class="account-block">
+				<a class="account-enter-link" href="#">----</a>
+				<a class="account-registration-link" href="#">----</a>
+						
+			</div>
 
 			<nav class="main-navigation">
-			
-				<ul class="user-navigation">
-					<li><a href="customer.html">User</a></li>
-					<li><a href="customer-orders.html">Мои заказы</a></li>
-					<li><a href="customer-cabinet.html">Личный кабинет</a></li>
-				</ul>	
-				
+							
 				<ul class="site-navigation">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="index.html">Компания</a></li>
@@ -51,6 +62,8 @@
 			</nav>
 		
 		</header>
+		
+		
 <!--                                                  Container                                         -->
 		<main class="container">
 		
