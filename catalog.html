@@ -34,7 +34,7 @@
 			<p class="site-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
 			
 			<div class="contacts-header">
-								
+			
 				<a class="contact-header-phone" href="tel:+7 812555 05 55">+7 (812) 555 05 55</a><br>
 				<p class="contact-header-address">
 					г. Санкт-Петербург, Б. Конюшенная, д. 19/18
@@ -53,11 +53,11 @@
 				
 				<a class="account-orders" href="orders.html">Мои заказы</a>
 				<a class="account-enter-link" href="login.html">Личный кабинет</a>
-								
+					
 			</div>
 
 			<nav class="main-navigation">
-							
+					
 				<ul class="site-navigation">
 					<li><a href="index.html">Главная</a></li>
 					<li><a href="company.html">Компания</a></li>
@@ -85,18 +85,76 @@
 					<li><a href="tools.html">Инструмент</a></li>
 					<li><a href="perforators.html">Перфораторы</a></li>				
 				</ul>
-								
-				<a href="index.html"><img class="breadcrumbs-home-icon" src="img/home-icon.svg" width="" height="" alt="Домой"></a>
-				<p class="breadcrambs-separator">></p>
 				
-				<a href="catalog.html">Каталог</a>
-				<p class="breadcrumbs-separator">></p>
 				
-				<a href="tools.html">Инструмент</a>
-				<p class="breadcrumbs-separator">></p>
-				
-				<a href="perforators.html">Перфораторы</a>
 			</div>
+		
+			<h1 class="main-item-title">Перфораторы</h1>
+			
+			<span class="filter-top-title">Фильтр:</span>
+			
+			<form class="filter" method="get" action="#">
+			
+				<fieldset>
+				
+					<div class="filter-price-adjust">x-------x---</div>
+					
+					<legend class="filter-title">Цена</legend>	
+					
+					<label class="visually-hidden" for="filter-price-min">Минимальная цена </label>
+					<input class="filter-price-input" type="text" name="filter-price-min" value="0" id="filter-price-min"> -
+					
+					<label class="visually-hidden" for="price-max">Максимальная цена </label>					
+					<input class="filter-price-input" type="text" name="filter-price-max" value="3000" id="filter-price-max"> 					
+				</fieldset>
+				<hr>
+				<fieldset>
+					<legend class="filter-title">Производители:</legend>
+					
+					<ul>
+						<li>
+							<input class="filter-brands" type="checkbox" name="bosh" id="filter-bosh" checked>							
+							<label class="filter-brands-name" for="filter-bosh">Bosh</label>
+						</li>
+						<li>
+							<input class="filter-brands" type="checkbox" name="interskol" id="filter-interskol">							
+							<label class="filter-brands-name" for="filter-interskol">Интерскол</label>
+						</li>
+						<li>
+							<input class="filter-brands" type="checkbox" name="makita" id="filter-makita" checked>							
+							<label class="filter-brands-name" for="filter-makita">Makita</label>
+						</li>
+						<li>
+							<input class="filter-brands" type="checkbox" name="devalt" id="filter-devalt">							
+							<label class="filter-brands-name" for="filter-devalt">Devalt</label>
+						</li>
+						<li>
+							<input class="filter-brands" type="checkbox" name="hitachi" id="filter-hitachi">							
+							<label class="filter-brands-name" for="filter-hitachi">Hitachi</label>
+						</li>					
+					</ul>
+					
+				</fieldset>
+				<fieldset>
+					<legend class="filter-title">Питание:</legend>
+					
+					<ul>
+						<li>
+							<input class="filter-power-type" type="radio" name="product-group" id="filter-bosh" checked>							
+							<label class="filter-power-type-name" for="filter-buttery">Аккумуляторные</label>
+						</li>
+						<li>
+							<input class="filter-power-type" type="radio" name="product-group" id="filter-interskol">							
+							<label class="filter-power-type-name" for="filter-wired">Сетевые</label>
+						</li>		
+					</ul>
+				
+				</fieldset>
+				
+				<button class="filter-button" type="submit">Показать</button>
+				
+			</form>
+		
 		
 			
 			
