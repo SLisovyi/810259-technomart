@@ -1,0 +1,211 @@
+@font-face{
+font-family: 'Cuprum';
+src: url('../fonts/web/cuprum.woff2');
+}
+@font-face{
+font-family: 'cuprumitalic';
+src: url('../fonts/web/cuprumitalic.woff2');
+}
+@font-face{
+font-family: 'ptsans';
+src: url('../fonts/web/ptsans.woff2');
+}
+
+
+
+
+
+
+
+
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 1200px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;	
+	background-color: #f3f7f8;	
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url('../img/technomart-index.jpg');
+  background-size: 1200px;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+	
+}
+
+.visually-hidden{
+	display: none;
+}
+
+.main-header {
+	width: 940px;
+	min-height: 320px;
+	margin: 0 auto;
+	background-color: rgba(215, 0, 4, 0.3);
+}
+
+.top-header {
+	
+	font-size: 17px;
+	line-height: 18px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 940px;
+	height: 42px;
+	
+}
+.top-header-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 310px;
+	height: 42px;
+	background-color: rgba(255, 1, 0, 0.3);
+}
+.logo {
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 10px 55px;
+	background-color: #ee3643;
+	border-bottom: 5px solid #b52933;
+	
+}
+.search-input-icon {
+	margin-right: 10px;
+}
+.top-header-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 433px;
+	background-color: rgba(255, 0, 0, 0.3);
+}
+.top-header-right a {
+	color: #ffffff;
+}
+.whishlist-title {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.cart-title {
+	margin-left: 12px;
+}
+
+
+.create-order {
+	padding: 12px 21px;
+	background-color: #63a63e;
+}
+
+.header-information {
+	display: flex;
+	min-height: 159px;
+	align-items: center;
+	
+}
+
+.site-description {
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	margin: 40px 50px;
+	padding: 5px;
+	width: 200px;
+	
+	background-color: rgba(135, 0, 0, 0.3);
+}
+
+.contact-header-phone {	
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+	border: 2px solid #ffffff;
+	padding: 5px 45px;
+}
+.contact-header-address {
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+}
+.account-block a {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.account-enter-link {
+	padding: 12px 20px;
+	background-color: #ffffff;
+}
+.account-registration-link {
+	padding: 12px 20px;
+	background-color: #ffffff;
+	margin-left: 10px;
+}
+.main-navigation a {
+	font-size: 17px;
+	line-height: 17px;
+	
+	list-style: none;
+	color: #ffffff;
+}
+.site-navigation {
+	list-style: none;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 55px;
+	background-color: rgba(135, 333, 12, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

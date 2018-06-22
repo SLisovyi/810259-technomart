@@ -3,50 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
+	<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 	<!--                                                   Header                                  -->
 		<header class="main-header">
-		
-			<div class="top-header">
 			
-				<a class="logo">Техномарт</a>
-				
-				<form class="search-form" >
-				
-					<label for="search-input">Поиск</label>
-					<input class="search-input" id="search-input">
-					<button class="search-button">Search</button>
-				</form>
-				
-				
-				<a class="whishlist" href="#">Закладки: <span class="whishlist-count">0</span></a>
-				
-				<a class="cart" href="#">Корзина: <span class="cart-count">0</span></a>
-				
-				<a class="create-order" href="#">Оформить заказ</a> 
-					
-			</div>
-			
-			
-				
-			
-			<p class="site-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-			
-			<div class="contacts-header">
-								
-				<a class="contact-header-phone" href="tel:+7 812555 05 55">+7 (812) 555 05 55</a><br>
-				<p class="contact-header-address">
-					г. Санкт-Петербург, Б. Конюшенная, д. 19/18
-				</p>
-			</div>
-			
-			<div class="account-block">
-				<a class="account-enter-link" href="login.html">Войти</a>
-				<a class="account-registration-link" href="registration.html">Регистрация</a>
+				<div class="top-header">
+					<div class="top-header-left">
+						<a class="logo">Техномарт</a>
 						
+						<form class="search-form" >
+						
+							<button class="search-button visually-hidden">Search</button>
+							<img class="search-input-icon" src="img/icon-search.svg">
+							<label for="search-input">Поиск:</label>
+							<input class="search-input visually-hidden" id="search-input">
+							
+						</form>
+					</div>
+					<div class="top-header-right">
+						<div class="whishlist">
+							<img src="img/icon-bookmark.svg">
+							<a class="whishlist-title" href="#">Закладки: <span class="whishlist-count">0</span></a>
+						</div>
+						<div class="cart">
+							<img src="img/icon-cart.svg">
+							<a class="cart-title" href="#">Корзина: <span class="cart-count">0</span></a>
+						</div>
+						<a class="create-order" href="#">Оформить заказ</a> 
+					</div>	
+				</div>
+			
+			
+				
+			<div class="header-information">
+				<p class="site-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+				
+				<div class="contacts-header">
+									
+					<a class="contact-header-phone" href="tel:+7 812555 05 55">+7 (812) 555 05 55</a><br>
+					<p class="contact-header-address">
+						г. Санкт-Петербург, Б. Конюшенная, д. 19/18
+					</p>
+				</div>
+				
+				<div class="account-block">
+					<a class="account-enter-link" href="login.html"><img src="img/icon-login.svg"> Войти</a>
+					<a class="account-registration-link" href="registration.html">Регистрация</a>
+							
+				</div>
 			</div>
 
+				
 			<nav class="main-navigation">
 							
 				<ul class="site-navigation">

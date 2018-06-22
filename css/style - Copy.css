@@ -1,0 +1,202 @@
+@font-face{
+font-family: 'Cuprum';
+src: url('../fonts/web/cuprum.woff2');
+}
+@font-face{
+font-family: 'cuprumitalic';
+src: url('../fonts/web/cuprumitalic.woff2');
+}
+@font-face{
+font-family: 'ptsans';
+src: url('../fonts/web/ptsans.woff2');
+}
+
+
+
+
+
+
+
+
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 1200px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;	
+	background-color: #f3f7f8;	
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url('../img/technomart-index.jpg');
+  background-size: 1200px;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden{
+	display: none;
+}
+
+.main-header {
+	min-height: 320px;
+	border: 1px solid red;
+}
+.top-header {
+	display: flex;
+	align-items: center;
+	
+	font-size: 17px;
+	line-height: 18px;
+	vertical-align: middle;
+	color: #ffffff;	
+	background-color: ;
+	height: 42px;	
+	width: 1200px;
+	
+	
+	margin-bottom: 45px;
+}
+
+.top-header a {
+	color: #ffffff;
+}
+
+.main-header {
+	border: 1px solid green;
+}
+
+.logo {
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 24px;	
+	padding: 10px 55px;
+	margin-left: 130px;
+	border-bottom: 4px solid #b52933;
+	background-color: #ee3643;
+}
+
+.search-form {
+	margin-left: 16px;
+}
+.search-input-icon {
+	margin-right: 10px;	
+}
+
+.whishlist {
+	margin-left: 197px;
+}
+.whishlist-title {
+	margin-left: 10px;
+}
+.cart {
+	margin-left: 45px;
+}
+.cart-ttle {
+	margin-left: 10px;
+}
+
+
+
+.header-information {
+	display: flex;
+}
+
+.site-description {
+	width: 210px;
+	margin-left: 180px;
+}
+
+.contacts-header {
+	margin-left: 60px;
+}
+
+.contact-header-phone {
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+	border: 3px solid #ffffff;
+	padding: 9px 37px;
+}
+
+
+
+
+
+
+
+
+.main-navigation{
+	width: 940px;
+	min-height: 55px;
+	margin: 0 auto;
+	background-color: red;
+	border-bottom: 5px solid #293449;
+}
+
+
+.site-navigation {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;	
+	background-color: transparent;
+	border: 1px solid green;
+	list-style: none;
+	
+}
+
+.site-navigation a {
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
