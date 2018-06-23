@@ -22,7 +22,7 @@ src: url('../fonts/web/ptsans.woff2');
 body {
 	margin: 0 auto;
 	padding: 0;
-	width: 1200px;
+	width: 100%;
 	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
@@ -42,8 +42,9 @@ body {
 a {
   text-decoration: none;
 }
-ul {
-	
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 .visually-hidden{
@@ -56,7 +57,11 @@ ul {
 	margin: 0 auto;
 	background-color: rgba(215, 0, 4, 0.3);
 }
-
+.top-header-wrapper {
+	width: 100%;
+	
+	background-color: #;
+}
 .top-header {
 	
 	font-size: 17px;
@@ -112,31 +117,50 @@ ul {
 	padding: 12px 21px;
 	background-color: #63a63e;
 }
+.create-order:hover {
+	background-color: #5fbb2d;
+}
 
 .header-information {
 	display: flex;
+	justify-content: space-between;
 	min-height: 159px;
 	align-items: center;
-	
+	border: 1px solid red;
 }
 
 .site-description {
 	font-size: 16px;
 	line-height: 23px;
 	font-style: italic;
-	margin: 40px 50px;
-	padding: 5px;
-	width: 200px;
-	
+	margin: 0 50px;
+	padding: 0px;
+	width: 230px;
+	border: 1px solid red;
 	background-color: rgba(135, 0, 0, 0.3);
 }
 
+.contacts-header-account-block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 680px;
+}
+.contacts-header {
+	border: 1px solid red;
+	width: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
 .contact-header-phone {	
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
-	border: 2px solid #ffffff;
-	padding: 5px 45px;
+	border: 3px solid #ffffff;
+	padding: 7px 50px;
+	margin-top: 20px;
 }
 .contact-header-address {
 	font-size: 14px;
@@ -150,29 +174,43 @@ ul {
 }
 
 .account-enter-link {
-	padding: 12px 20px;
+	padding: 12px 22px;
 	background-color: #ffffff;
 }
 .account-registration-link {
-	padding: 12px 20px;
+	padding: 12px 22px;
 	background-color: #ffffff;
 	margin-left: 10px;
 }
-.main-navigation a {
+
+.site-navigation {
 	font-size: 17px;
 	line-height: 17px;
-	
 	list-style: none;
-	color: #ffffff;
-}
-.site-navigation {
-	list-style: none;
-	
+	margin: 0;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
+	min-width: 940px;
 	min-height: 55px;
+	list-style: none;
+	padding: 0;	
+	border-bottom: 4px solid #293449;
 	background-color: rgba(135, 333, 12, 0.3);
+}
+
+
+.site-navigation a {
+	display: block;
+	padding: 19px 30px;
+	
+	vertical-align: middle;
+	color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+	background-color: #293449;
 }
 
 
