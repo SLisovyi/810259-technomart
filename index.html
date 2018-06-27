@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,700&subset=cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 	<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
@@ -17,7 +19,7 @@
 							<form class="search-form" >
 							
 								<button class="search-button visually-hidden">Search</button>
-								<img class="search-input-icon" src="img/icon-search.svg">
+								
 								<label for="search-input">Поиск:</label>
 								<input class="search-input visually-hidden" id="search-input">
 								
@@ -25,11 +27,11 @@
 						</div>
 						<div class="top-header-right">
 							<div class="whishlist">
-								<img src="img/icon-bookmark.svg">
+								
 								<a class="whishlist-title" href="#">Закладки: <span class="whishlist-count">0</span></a>
 							</div>
 							<div class="cart">
-								<img src="img/icon-cart.svg">
+								
 								<a class="cart-title" href="#">Корзина: <span class="cart-count">0</span></a>
 							</div>
 							
@@ -53,7 +55,7 @@
 					</div>
 					
 					<div class="account-block">
-						<a class="account-enter-link" href="login.html"><img src="img/icon-login.svg"> Войти</a>
+						<a class="account-enter-link" href="login.html">Войти</a>
 						<a class="account-registration-link" href="registration.html">Регистрация</a>
 					</div>
 				</div>	
@@ -84,61 +86,68 @@
 		
 			<section class="showcase">
 			
-				<ul>
-					<li class="showcase-matherials">
+				<ul class="showcase-list-up">
+					<li class="showcase-item showcase-matherials">
 						<h3 class="showcase-title">Материалы</h3>
 						<a href="matherials.html">На любой вкус</a>
 						<img src="img/matherials.svg"> 
 					</li>
 					
-					<li class="showcase-tools">
+					<li class="showcase-item showcase-tools">
 						<h3 class="showcase-title">Инструмент</h3>
 						<a href="tools.html">На все случаи жизни</a>
 						<img src="img/tools.svg">
 					</li>
 					
-					<li class="showcase-equipments">
+					<li class="showcase-item showcase-equipments">
 						<h3 class="showcase-title">Техника</h3>
 						<a href="equipments.html">Для стройки</a>
 						<img src="img/equipments.svg"> 					
 					</li>
-					
-					<li class="showcase-discounts">
-						<h3 class="showcase-title">Скидки 50%</h3>
-						<a href="discounts.html">На 350 товаров</a>
-						<img src="img/discounts.svg"> 										
-					</li>
-					<li class="showcase-delivery">
-						<h3 class="showcase-title">Скидки 50%</h3>
-						<a href="delivery.html">Бесплатно</a>
-						<img src="img/delivery.svg"> 										
-					</li>
-					
 				</ul>
 				
-				<div class="showcase-slider">
-					<div class="showcase-slider-item">
-						<h3 class="showcase-slider-caption">Дрели</h3>
-						<p class="showcase-slider-description">Соседям на радость</p>
-						<a class="showcase-slider-link" href="catalog.html">Открыть каталог</a>						
+				<div class="showcase-list-bottom">
+				
+					<ul class="showcase-list-right">
+						<li class="showcase-item showcase-discounts">
+							<h3 class="showcase-title">Скидки 50%</h3>
+							<a href="discounts.html">На 350 товаров</a>
+							<img src="img/discounts.svg"> 										
+						</li>
+						<li class="showcase-item showcase-delivery">
+							<h3 class="showcase-title">Доставка</h3>
+							<a href="delivery.html">Бесплатно</a>
+							<img src="img/delivery.svg"> 										
+						</li>
+						
+					</ul>
+				
+					<div class="showcase-slider">
+						<div class="showcase-slider-item">
+							<h3 class="showcase-slider-caption">Дрели</h3>
+							<p class="showcase-slider-description">Соседям на радость</p>
+							<a class="showcase-slider-link" href="catalog.html">Открыть каталог</a>						
+						</div>
+						
+						<div class="showcase-slider-item visually-hidden">
+							<h3 class="showcase-slider-caption">------</h3>
+							<p class="showcase-slider-description">------------------</p>
+							<a class="showcase-slider-link" href="catalog.html">---------------</a>
+						</div>
+						<button class="button showcase-slider-button showcase-slider-button-back" type="button">Назад</a>
+						<button class="button showcase-slider-button showcase-slider-button-next" type="button">Вперед</a>
 					</div>
 					
-					<div class="showcase-slider-item">
-						<h3 class="showcase-slider-caption">------</h3>
-						<p class="showcase-slider-description">------------------</p>
-						<a class="showcase-slider-link" href="catalog.html">---------------</a>
-					</div>
-					<button class="button showcase-slider-button showcase-slider-button-back" type="button">Назад</a>
-					<button class="button showcase-slider-button showcase-slider-button-next" type="button">Вперед</a>
-				</div>			
-			
+				</div>
+				
 			</section>
 			
 			<section class="popular-product">
 			
-				<h2  class="popular-product-title">Популярные товары:</h2>
-				
-				<a href="all-popular-product.html" class="button popular-product-button-all">Все популярные товары</a>
+				<div class="popular-product-link">
+					<h2 class="popular-product-title">Популярные товары:</h2>				
+					<a href="all-popular-product.html" class="button popular-product-button-all">Все популярные товары</a>
+				</div>
 				
 				<ul class="popular-product-list">
 				
@@ -200,14 +209,15 @@
 			</section>
 						
 			<section class="popular-brands">
-			
-				<h2  class="popular-brands-caption">Все популярные производители:</h2>
-			
-				<a href="popular-brands-all.html" class="button brands-button-all">Все производители</a>
 				
-				<ul class="popular-brands">
-					<li><a href="bosh.html"><img src="img/brands/bosh.svg" width="" height="" alt="Bosh"></a></li>
-					<li><a href="makita.html"><img src="img/brands/makita.svg" width="" height="" alt="Makita"></a></li>
+				<div class="popular-brands-link">
+					<h2  class="popular-brands-title">Популярные производители:</h2>
+					<a href="popular-brands-all.html" class="button brands-button-all">Все производители</a>
+				</div>
+				
+				<ul class="popular-brands-item">
+					<li><a href="bosch.html"><img src="img/brands/bosch.svg" width="126" height="37" alt="Bosch"></a></li>
+					<li><a href="makita.html"><img src="img/brands/makita.png" width="" height="" alt="Makita"></a></li>
 					<li><a href="dewalt.html"><img src="img/brands/dewalt.svg" width="" height="" alt="Dewalt"></a></li>
 					<li><a href="interskol.html"><img src="img/brands/interskol.svg" width="" height="" alt="Интерскол"></a></li>
 					<li><a href="hitachi.html"><img src="img/brands/hitachi.svg" width="" height="" alt="Hitachi"></a></li>
@@ -239,14 +249,16 @@
 					</p>				
 				</section>
 				
-				<section class="servises-warranty">					
+				<section class="servises-warranty visually-hidden">					
 					<h3 class="servises-delivery-warranty">Гарантия</h3>
 					<p>
-						-----------------------------
+						Если купленный у нас товар поломается или заискрит, 
+						а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. 
+						Дом уж восстановите как-нибудь сами.
 					</p>				
 				</section>
 				
-				<section class="servises-loan">					
+				<section class="servises-loan visually-hidden">					
 					<h3 class="servises-delivery-loan">Кредит</h3>
 					<p>
 						---------------------------------
